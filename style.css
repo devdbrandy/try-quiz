@@ -1,0 +1,80 @@
+body {
+  font-family: Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h3 {
+  width: 600px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 2rem 0 3rem;
+}
+
+a.take-quiz {
+  background: #02b302c0;
+  border: none;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 3rem;
+  color: #fff;
+}
+
+h1.welcome {
+  font-size: 2.5rem;
+}
+
+form .form-control > label {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+form .form-control > label.success {
+  border-color: greenyellow;
+}
+
+form .form-control > label.danger {
+  background: rgb(255, 0, 0, 0.6);
+  color: #fff;
+}
+
+form > button[type='submit'] {
+  background: #5068d3;
+  border: none;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+}
